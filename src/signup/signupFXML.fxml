@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="768.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="signup.SignupFXMLController">
+   <children>
+      <ImageView fitHeight="96.0" fitWidth="813.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../userLogin/Image/Bar3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="806.0" layoutX="733.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../userLogin/Image/Bar3.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="108.0" layoutX="715.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../userLogin/Image/SUBER.png" />
+         </image>
+      </ImageView>
+      <Text fill="#1d9fa1" layoutX="232.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SIGN UP" wrappingWidth="138.1725311279297">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <TextField layoutX="232.0" layoutY="264.0" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <TextField layoutX="232.0" layoutY="324.0" prefHeight="35.0" prefWidth="420.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <TextField layoutX="451.0" layoutY="264.0" prefHeight="35.0" prefWidth="200.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <TextField layoutX="232.0" layoutY="385.0" prefHeight="35.0" prefWidth="420.0" style="-fx-border-color: #4AC0BE;" />
+      <TextField layoutX="232.0" layoutY="446.0" prefHeight="35.0" prefWidth="420.0" style="-fx-border-color: #4AC0BE; -fx-background-color: #FFFFFF;" />
+      <Text layoutX="232.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="First Name" />
+      <Text layoutX="451.0" layoutY="260.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Name" />
+      <Text layoutX="232.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Email Address" />
+      <Text layoutX="232.0" layoutY="381.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <Text layoutX="232.0" layoutY="443.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirm Password" />
+      <TextField layoutX="232.0" layoutY="568.0" prefHeight="35.0" prefWidth="420.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <Text layoutX="233.0" layoutY="503.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mobile Number" />
+      <Text layoutX="234.0" layoutY="564.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Address" />
+      <TextField layoutX="232.0" layoutY="506.0" prefHeight="35.0" prefWidth="420.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <TextField layoutX="232.0" layoutY="628.0" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <TextField layoutX="382.0" layoutY="628.0" prefHeight="35.0" prefWidth="120.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #4AC0BE;" />
+      <ComboBox layoutX="532.0" layoutY="628.0" prefHeight="35.0" prefWidth="120.0" style="-fx-border-color: #4AC0BE; -fx-background-color: #FFFFFF; -fx-border-width: 2;" />
+      <Text layoutX="234.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Suburb" />
+      <Text layoutX="382.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Post Code" />
+      <Text layoutX="532.0" layoutY="624.0" strokeType="OUTSIDE" strokeWidth="0.0" text="State" />
+      <Text fill="#2cc2f8" layoutX="232.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Personal Details" wrappingWidth="138.17254638671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#2cc2f8" layoutX="899.0" layoutY="226.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Payment Details" wrappingWidth="271.1725311279297">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="899.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Credit Card Number" />
+      <TextField layoutX="899.0" layoutY="260.0" prefHeight="35.0" prefWidth="420.0" style="-fx-border-color: #4AC0BE; -fx-background-color: #FFFFFF;" />
+      <ComboBox layoutX="899.0" layoutY="321.0" prefHeight="35.0" prefWidth="120.0" style="-fx-border-color: #4AC0BE; -fx-border-width: 2; -fx-background-color: #FFFFFF;" />
+      <TextField layoutX="1199.0" layoutY="321.0" prefHeight="35.0" prefWidth="120.0" style="-fx-border-color: #4AC0BE; -fx-background-color: #FFFFFF;" />
+      <ComboBox layoutX="1051.0" layoutY="321.0" prefHeight="35.0" prefWidth="120.0" style="-fx-border-color: #4AC0BE; -fx-background-color: #FFFFFF; -fx-border-width: 2;" />
+      <Text layoutX="900.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Expiration Date (MM/YY)" />
+      <Text layoutX="1199.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CVV" />
+      <Button layoutX="1078.0" layoutY="628.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="240.0" style="-fx-border-color: #4AC0BE; -fx-background-color: #4AC0BE;" text="Create My Account" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
